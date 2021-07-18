@@ -1,4 +1,4 @@
-# Inventory Backend
+# Kivy Sheets Inventory Manage
 
 Google spread sheets を在庫管理の　Backend　として　利用する Kivy サンプルです。
 
