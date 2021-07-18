@@ -11,7 +11,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 scope = ['https://www.googleapis.com/auth/drive']
 creds = ServiceAccountCredentials.from_json_keyfile_name('your-private-key.json', scope)
 client = gspread.authorize(creds)
-iQue_sheet = client.open("InventoryBackend").get_worksheet(2)
+iQue_sheet = client.open("InventoryBackend").get_worksheet(1)
 
 #root layout
 class InventoryWindow(Screen):
